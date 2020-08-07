@@ -239,7 +239,7 @@ class _ListviState extends State<Listvi> {
                                 child: GestureDetector(
                                   child: ClipOval(
                                     child: Image.asset(
-                                      'assets/images/c.jpeg',
+                                      'assets/images/index2.jpeg',
                                       fit: BoxFit.cover,
                                     ),
                                   ),

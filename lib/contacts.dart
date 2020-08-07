@@ -72,6 +72,7 @@ class _ContactsState extends State<Contacts> {
         ),
         maxLength: 14,
         keyboardType: TextInputType.visiblePassword,
+        obscureText: true,
         validator: (String value) {
           if (value.isEmpty) {
             return "password is required";
@@ -146,7 +147,7 @@ class _ContactsState extends State<Contacts> {
                                       Radius.circular(
                                           10))), //rounded edges of the button
                               onPressed: () {
-                                Scaffold.of(context).showSnackBar(SnackBar(
+                                Scaffold.of(context).showSnackBar(SnackBar(backgroundColor: Colors.orange,
                                     content: Text(
                                         'Submitting Form, Please Wait.....')));
                                 if (!_formkey.currentState.validate()) {

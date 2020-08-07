@@ -6,9 +6,9 @@ import 'package:liquid_pull_to_refresh/liquid_pull_to_refresh.dart';
 
 var bannerItems = ['Courses', 'Staff', 'Sports', 'Meals', 'Entertainment'];
 var bannerImage = [
-  'assets/images/b.jpeg',
+  'assets/images/imges.jpeg',
   'assets/images/c.jpeg',
-  'assets/images/collins.jpg',
+  'assets/images/f.jpg',
   'assets/images/j.jpeg',
   'assets/images/f.jpeg',
 ];
@@ -118,14 +118,14 @@ class _AboutDialogPageState extends State<AboutDialogPage> {
                           dotHorizontalPadding: 12,
                           boxFit: BoxFit.cover,
                           images: [
-                            Image.asset('assets/images/e.jpeg'),
+                            Image.asset('assets/images/index1.jpeg'),
                             Image.asset('assets/images/df.jpeg'),
                             Image.asset('assets/images/d.png'),
-                            Image.asset('assets/images/collins.jpg'),
+                            Image.asset('assets/images/index2.jpeg'),
                             Image.asset('assets/images/f.jpg'),
                             Image.asset('assets/images/g.jpg'),
                             Image.asset('assets/images/index.png'),
-                            Image.asset('assets/images/k.jpg'),
+                            Image.asset('assets/images/e.jpeg'),
                           ],
                           animationCurve: Curves.fastOutSlowIn,
                           animationDuration: Duration(milliseconds: 2000),
@@ -157,15 +157,15 @@ class _TinderCardState extends State<TinderCard> with TickerProviderStateMixin {
   List<String> tinderImages = [
     'assets/images/h.webp',
     'assets/images/g.webp',
-    'assets/images/images.jpeg',
-    'assets/images/images.png',
+    'assets/images/images2.jpeg',
+    'assets/images/images3.png',
     'assets/images/imags.jpeg',
-    'assets/images/imges.jpeg',
+    'assets/images/index4.jpeg',
     'assets/images/f.jpg',
     'assets/images/h.webp',
-    'assets/images/j.jpeg',
-    'assets/images/k.jpg',
-    'assets/images/collins.jpg',
+    'assets/images/index3.jpeg',
+    'assets/images/index5.jpeg',
+    'assets/images/ind.jpeg',
   ];
   @override
   Widget build(BuildContext context) {
